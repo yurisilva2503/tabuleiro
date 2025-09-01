@@ -57,11 +57,11 @@ O jogo foi pensado como uma forma de **ensinar e refletir sobre ética na tecnol
 
 ## 📚 Informações Acadêmicas  
 
-- **Disciplina:** Ciência, Tecnologia e Sociedade (CTS)  
+- **Disciplina:** Ciência, Tecnologia e Sociedade  
 - **Professor:** Paulo Pontes  
 - **Curso:** Bacharelado em Ciência da Computação  
 - **Instituição:** Instituto Federal do Pará — Campus Ananindeua  
-- **Semestre:** 8º semestre  
+- **Turma:** NBACCN8
 
 ---
 

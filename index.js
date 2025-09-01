@@ -1301,7 +1301,7 @@ function rolarDado() {
 function animarDado(n) {
   const d = el("#dado");
   d.classList.add("animate-bounce");
-  d.textContent = "🎲 " + n;
+  d.innerHTML = '<i class="bi bi-dice-5-fill"></i> ' + n;
   setTimeout(() => d.classList.remove("animate-bounce"), 600);
 }
 
@@ -1406,7 +1406,12 @@ function finalizar() {
   ul.innerHTML = "";
   STATE.historico.forEach((h) => {
     const li = document.createElement("li");
-    const signo = h.scoreDelta > 0 ? "➕" : h.scoreDelta < 0 ? "➖" : "➗";
+    const signo =
+      h.scoreDelta > 0
+        ? '<i class="bi bi-plus-square"></i>'
+        : h.scoreDelta < 0
+        ? '<i class="bi bi-dash-square"></i>'
+        : '<i class="bi bi-hr"></i>';
     li.className = "mb-2";
     li.innerHTML = `<span class=\"font-medium\">Casa ${h.casa} — ${h.titulo}</span><br><span class=\"opacity-80\">Escolha:</span> ${h.escolha} <span class=\"opacity-60\">(${h.principio})</span> <span class=\"ml-2\">${signo} ${h.scoreDelta}</span>`;
     ul.appendChild(li);

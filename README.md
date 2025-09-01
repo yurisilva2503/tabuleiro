@@ -1,4 +1,4 @@
-# 🎲 Jogo de Tabuleiro Digital — Dilemas Éticos na Computação  
+<img width="1152" height="712" alt="image" src="https://github.com/user-attachments/assets/b675b1a4-bf32-43c8-8478-35c491492888" /># 🎲 Jogo de Tabuleiro Digital — Dilemas Éticos na Computação  
 
 Este projeto é um **jogo de tabuleiro digital interativo**, desenvolvido para a disciplina **Ciência, Tecnologia e Sociedade**, do curso de **Bacharelado em Ciência da Computação** no **IFPA — Campus Ananindeua**.  
 
@@ -24,7 +24,7 @@ O objetivo é proporcionar uma **experiência lúdica e reflexiva** em que os jo
 
 ## 📸 Capturas de Tela  
 
-*(Adicione aqui prints do tabuleiro e da tela final do jogo para deixar o README mais visual)*  
+ <img width="1152" height="712" alt="image" src="https://github.com/user-attachments/assets/23340a39-0c52-44c5-b0e2-84bbc97a8bd9" />
 
 ---
 
